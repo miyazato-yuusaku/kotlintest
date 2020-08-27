@@ -1,0 +1,20 @@
+2020-08-27 17:25:36 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: SQLステートメントに文法エラーがあります "DELETE FROM TASK CONTENT =[*] ?, WHERE ID = ? "
+Syntax error in SQL statement "DELETE FROM TASK CONTENT =[*] ?, WHERE ID = ? "; SQL statement:
+DELETE from task content = ?, WHERE id = ? [42000-194]
+2020-08-27 17:32:17 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: SQLステートメントに文法エラーがあります "DELETE FROM TASK CONTENT =[*] ?, WHERE ID = ? "
+Syntax error in SQL statement "DELETE FROM TASK CONTENT =[*] ?, WHERE ID = ? "; SQL statement:
+DELETE from task content = ?, WHERE id = ? [42000-194]
+2020-08-27 17:32:23 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: SQLステートメントに文法エラーがあります "DELETE FROM TASK CONTENT =[*] ?, WHERE ID = ? "
+Syntax error in SQL statement "DELETE FROM TASK CONTENT =[*] ?, WHERE ID = ? "; SQL statement:
+DELETE from task content = ?, WHERE id = ? [42000-194]
+2020-08-27 17:33:49 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: SQLステートメントに文法エラーがあります "DELETE FROM TASK CONTENT,[*] DONE, WHERE ID = ? "
+Syntax error in SQL statement "DELETE FROM TASK CONTENT,[*] DONE, WHERE ID = ? "; SQL statement:
+DELETE from task content, done, WHERE id = ? [42000-194]
+2020-08-27 17:39:28 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: SQLステートメントに文法エラーがあります "SELECT ID, DELETE TASK CONTENT[*], DONE, WHERE ID = ? "
+Syntax error in SQL statement "SELECT ID, DELETE TASK CONTENT[*], DONE, WHERE ID = ? "; SQL statement:
+SELECT id, DELETE task content, done, WHERE id = ? [42000-194]
